@@ -47,4 +47,3 @@ By integrating multiple datasets into a unified geospatial framework, I demonstr
 ## Author  
 **Sofia Blankenship**  
 - MPH, Epidemiology | Data & Analytics Professional  
-- [LinkedIn Profile link here]  
