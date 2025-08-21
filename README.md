@@ -6,7 +6,11 @@ This project analyzes **energy consumption patterns in Charlotte, NC** using geo
 By integrating multiple datasets into a unified geospatial framework, I demonstrated how **spatial analytics can inform utility planning, distributed energy resource placement, and policy development**.  
 
 ## Data  
-- **Sources:** Geospatial and utility consumption datasets for Charlotte, NC, along with demographic and building infrastructure data.  
+- **Sources:** Geospatial and utility consumption datasets for Charlotte, NC, along with demographic and building infrastructure data.
+  -Microsoft Building Footprints (North Carolina buildings, consolidated to just Charlotte due to memory limitations)
+  -AMI CSV File from Open Energy Data Initiative LEAD Tool 2022 (Area Median Income data)
+  -FPL CSV File Open Energy Data Initiative LEAD Tool 2022 (Federal Poverty Line data)
+  -Tidycensus (Package within R to outline Charlotte, NC Census Tracts. Personal API Key Used)  
 - **Note on confidentiality:** All datasets used were public or academic resources. No sensitive or proprietary data is included.  
 
 ## Methods & Workflow  
@@ -15,7 +19,7 @@ By integrating multiple datasets into a unified geospatial framework, I demonstr
    - Merged demographic, building infrastructure, and grid-level data.  
 
 2. **Geospatial Modeling**  
-   - Used R (tidyverse, sf) to integrate spatial and tabular datasets.  
+   - Used R (tidyverse, sf,leaflet, plotly, viridis, scales, tigris, tidycensus to integrate spatial and tabular datasets).  
    - Applied spatial modeling techniques to analyze distribution patterns.  
 
 3. **Analysis**  
@@ -41,8 +45,9 @@ By integrating multiple datasets into a unified geospatial framework, I demonstr
 ## How to Reproduce  
 1. Clone this repo.  
 2. Open `geospatial_energy_analysis.R` in RStudio.  
-3. Install required packages (`tidyverse`, `sf`, `ggplot2`).  
-4. Run the script to clean data, perform spatial analysis, and generate maps.  
+3. Install required packages (tidyverse, sf,leaflet, plotly, viridis, scales, tigris, tidycensus)
+4. Assure pathways are stemming from personal device for lines 91 & 95, respectively. 
+5. Run the script to clean data, perform spatial analysis, and generate maps.  
 
 ## Author  
 **Sofia Blankenship**  
