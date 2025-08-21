@@ -44,10 +44,12 @@ By integrating multiple datasets into a unified geospatial framework, I demonstr
 
 ## How to Reproduce  
 1. Clone this repo.  
-2. Open `geospatial_energy_analysis.R` in RStudio.  
-3. Install required packages (tidyverse, sf,leaflet, plotly, viridis, scales, tigris, tidycensus)
-4. Assure pathways are stemming from personal device for lines 91 & 95, respectively. 
-5. Run the script to clean data, perform spatial analysis, and generate maps.  
+2. Open `geospatial_energy_analysis.R` in RStudio.
+3. Download appropriate datatsets (AMI & FPL) and place into designated folder on personal device.
+4. Set working directory to created folder with AMI & FPL datasets. 
+5. Install required packages (tidyverse, sf, leaflet, plotly, viridis, scales, tigris, tidycensus)
+6. Assure pathways are stemming from personal device for lines 91 & 95, respectively. 
+7. Run the script to clean data, perform spatial analysis, and generate maps.  
 
 ## Author  
 **Sofia Blankenship**  
