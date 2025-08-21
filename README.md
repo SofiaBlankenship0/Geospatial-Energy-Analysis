@@ -29,14 +29,15 @@ By integrating multiple datasets into a unified geospatial framework, I demonstr
 4. **Visualization**  
    - Built heatmaps, interactive maps, and statistical summaries.  
    - Highlighted consumption hotspots and potential areas for program targeting.
-   - For my interactative map and to *Click on census tracts to see detailed energy burden data, building density, and demographic information.*, please follow this link: https://sofiablankenship0.github.io/Geospatial-Energy-Analysis/Geospatial_Energy_Map_Charlotte.html 
+   - For my interactive map and to *click on census tracts to see detailed energy burden data, building density, and demographic information.*, please follow this link: https://sofiablankenship0.github.io/Geospatial-Energy-Analysis/Geospatial_Energy_Map_Charlotte.html 
 
 ## Key Files  
 - `geospatial_energy_analysis.R` – R script for data cleaning, spatial modeling, and visualization.  
 - `data/` – public datasets used for analysis (or links if too large).  
-- `outputs/` – plots, maps, and summary tables.  
-- `README.md` – this documentation.  
-
+- `outputs/` – PDF analysis report, static visualizations, and summary tables 
+- `README.md` – this documentation.
+- Interactive HTML geospatial map of heat clusters
+  
 ## Results / Outputs  
 - Cleaned and merged multiple datasets into a reproducible geospatial framework.  
 - Detected clusters of high demand across Charlotte, NC.  
