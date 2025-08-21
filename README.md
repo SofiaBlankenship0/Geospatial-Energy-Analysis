@@ -28,7 +28,8 @@ By integrating multiple datasets into a unified geospatial framework, I demonstr
 
 4. **Visualization**  
    - Built heatmaps, interactive maps, and statistical summaries.  
-   - Highlighted consumption hotspots and potential areas for program targeting.  
+   - Highlighted consumption hotspots and potential areas for program targeting.
+   - For my interactative map and to *Click on census tracts to see detailed energy burden data, building density, and demographic information.*, please follow this link: https://sofiablankenship0.github.io/Geospatial-Energy-Analysis/Geospatial_Energy_Map_Charlotte.html 
 
 ## Key Files  
 - `geospatial_energy_analysis.R` – R script for data cleaning, spatial modeling, and visualization.  
