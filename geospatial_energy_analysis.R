@@ -304,5 +304,5 @@ ggsave("charlotte_building_density.png", income_buildings, width = 12, height = 
 #Save data for further analysis
 write_csv(energy_tracts %>% st_drop_geometry(), "charlotte_energy_analysis_data.csv")
 
-print("Analysis complete! Files saved to working directory.")
+print("Analysis complete, files saved to working directory.")
 print("GitHub-ready files: charlotte_energy_burden_heatmap.png, charlotte_building_density.png, charlotte_energy_analysis_data.csv")
